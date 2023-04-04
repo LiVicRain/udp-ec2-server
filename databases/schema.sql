@@ -1,4 +1,5 @@
 CREATE DATABASE flutter_udp;
+
 USE flutter_udp;
 
 CREATe TABLE notes (
