@@ -1,0 +1,17 @@
+# Miscellaneous
+*.xcconfig
+.env
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# folder
+node_modules
+configs
