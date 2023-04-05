@@ -1,13 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const https = require("https");
 require("dotenv").config();
 
 const PORT = process.env.PORT;
 const HOST = process.env.HOST;
 const app = express();
 const mongoDB = `mongodb+srv://vicrain:${process.env.SECRET_KEY_MONGO}@cluster0.bayd0eo.mongodb.net/udp-proto`;
-// const options = {};
 
 // IMPORT FROM OTHER FILES
 const authRouter = require("./routes/auth");
