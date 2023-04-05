@@ -10,6 +10,10 @@ const multer = require("multer");
 const upload = multer();
 const authRouter = express.Router();
 
+authRouter.get("/test", async (req, res) => {
+  res.status(200).send("세명이 오리라...");
+});
+
 // 유저 정보 가져오기
 authRouter.get("/", auth, async (req, res) => {
   try {
